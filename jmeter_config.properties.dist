@@ -5,7 +5,7 @@
 ## Jmeter ##################################################
 
 # Jmeter directory (/bin/jmeter will be added by test_runner.sh).
-jmeter_path=/usr/bin/jmeter
+jmeter_path=/usr
 
 
 ## Results #######################
