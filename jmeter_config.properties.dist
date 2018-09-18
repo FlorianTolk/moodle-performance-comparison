@@ -5,7 +5,7 @@
 ## Jmeter ##################################################
 
 # Jmeter directory (/bin/jmeter will be added by test_runner.sh).
-jmeter_path=/opt/apache-jmeter-2.9
+jmeter_path=/usr/bin/jmeter
 
 
 ## Results #######################
