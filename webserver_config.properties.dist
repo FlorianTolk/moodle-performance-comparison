@@ -11,15 +11,15 @@
 
 # All Moodle db types supported, but only 'pgsql' and 'mysqli' auto backup/restore, manual backup/restore required for other drivers, more info in before_run_setup.sh and after_run_setup.sh.
 dbtype="pgsql"
-dbhost="localhost"
-dbname="moodleperformancecomparison"
+dbhost="docker_moodle_db"
+dbname="moodle"
 # The user should have permissions to create and drop databases.
-dbuser="postgres"
-dbpass="yourpassword"
+dbuser="moodle"
+dbpass="5UBO1cOQJAvXZXZi3vgYu43T0DaMnLfB"
 dbprefix="mdl_"
 # As explained in README.md these tools are intended to be used in internal networks.
-wwwroot="http://yourwebserver/path/to/moodle-performance-comparison/moodle"
-dataroot="/your/dataroot/directory"
+wwwroot="http://localhost"
+dataroot="/var/data/moodle"
 toolgeneratorpassword="moodlerules"
 
 
